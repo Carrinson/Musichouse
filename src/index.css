@@ -87,7 +87,7 @@ button:focus-visible {
 
 
 .bg-img{
-  background-image: url("src/assets/wp4132748-pop-rock-wallpapers.jpg");
+  background-image: url("/wp4132748-pop-rock-wallpapers.jpg");
   background-size: cover;
   filter: brightness(20%);
   width: 100%;
@@ -98,7 +98,7 @@ button:focus-visible {
   z-index: -1;
 }
 .bg-img-browse{
-  background-image: url("src/assets/album-covers.jpg");
+  background-image: url("/album-covers.jpg");
   background-size: cover; 
   filter: brightness(20%);
   width: 100%;
