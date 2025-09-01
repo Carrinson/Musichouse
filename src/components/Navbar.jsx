@@ -12,7 +12,8 @@ function Navbar() {
                 <ul className="nav-links">
                     <Link className="nav-link" to="/" >Home</Link >
                     <Link className="nav-link"  to="/browse" >Browse</Link >
-                    <Link className="nav-link"  to="/account" >Account</Link >
+                    <Link className="nav-link"  to="/stats" >Stats</Link >
+                    <Link className="nav-link"  to="/login" >Account</Link >
                 </ul>
             </div>
         </nav>

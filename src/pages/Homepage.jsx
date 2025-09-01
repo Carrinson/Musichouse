@@ -9,11 +9,10 @@ function Homepage(){
             <div className="title">
                 <div className="home-btn">
                     <button>
-                        Sign-UP!
+                        <Link className="nav-link" to="/login" >Sign Up</Link>
                     </button>
                     <button>
                         <Link className="nav-link" to="/browse" >Use Us!</Link>
-                    
                     </button>
                 </div>
 
