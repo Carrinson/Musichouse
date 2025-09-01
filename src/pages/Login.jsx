@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 
 const CLIENT_ID = import.meta.env.VITE_CLIENT_ID; 
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";
-const REDIRECT_URL_AFTER_LOGIN = "http://localhost:3000/webapp";
+const REDIRECT_URL_AFTER_LOGIN = "http://localhost:5175/stats";
 const SPACE_DELIMITER = "%20";
 const SCOPES = [
   "user-read-currently-playing",
