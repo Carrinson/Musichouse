@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 // IMPORTANT: DO NOT EDIT THESE VARIABLES.
 const CLIENT_ID = '0aff9184d31a40d2b536e1d2778052bb'; 
-const REDIRECT_URI = 'https://musicohouse.netlify.app/callback';
+const REDIRECT_URI = 'https://musichouse-n7dzn9uxg-carrinsons-projects.vercel.app/login';
 const SCOPES = 'user-read-private user-read-email user-top-read user-read-currently-playing playlist-modify-public playlist-modify-private user-read-recently-played';
 const AUTH_URL = `https://accounts.spotify.com/authorize`;
 const TOKEN_URL = `https://accounts.spotify.com/api/token`;
